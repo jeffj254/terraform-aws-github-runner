@@ -137,6 +137,7 @@ async function evaluateAndRemoveRunners(
         }
       }
     }
+    githubCache.runners.delete(ownerTag)
   }
 }
 
